@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title Deckster Editor
+    meta(
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    )
+    link(
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic"
+    )
+    link(
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    )
+    link(
+      href="stylesheets/vendor.css"
+      rel="stylesheet"
+    )
+    link(
+      href="stylesheets/app.css"
+      rel="stylesheet"
+    )
+    script(src="javascripts/vendor.js")
+    script(src="javascripts/app.js")
+    base(href='/')
+  body(ng-app="fiskkit" layout="column" flex)
+    div(flex layout="row" layout-align="center")
+      div(flex="60" ui-view)

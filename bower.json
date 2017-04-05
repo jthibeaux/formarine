@@ -1,0 +1,29 @@
+ {
+  "name": "deckster",
+  "version": "0.0.0",
+  "authors": [
+    "Jeremy Thibeaux <jthibeaux@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "latest",
+    "angular-ui-router": "latest",
+    "reset-css": "shannonmoeller/reset-css#~2.0.20110126",
+    "lodash": "latest",
+    "jquery": "latest",
+    "angular-touch": "^1.5.5",
+    "angular-sanitize": "^1.5.8",
+    "angular-material": "^1.1.3"
+  },
+  "resolutions": {
+    "angular": "1.6.2"
+  }
+}

@@ -1,0 +1,13 @@
+form(
+  layout="row"
+  ng-submit="submit()"
+)
+  md-input-container.md-block(flex)
+    input(
+      type="text"
+      ng-model="input.content"
+    )
+  md-button.md-fab.md-mini.md-accent(
+    type="submit"
+  )
+    md-icon add

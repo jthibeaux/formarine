@@ -1,0 +1,26 @@
+{
+  "name": "fiskkittest",
+  "version": "1.0.0",
+  "description": "Test for fiskkit.",
+  "author": "Jeremy Thibeaux",
+  "dependencies": {
+    "coffeelint": "^1.16.0",
+    "grunt": "~0.4.1",
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.2.0",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jasmine": "^1.1.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-http": "^2.2.0",
+    "grunt-json": "^0.2.0",
+    "grunt-sass": "^2.0.0",
+    "pug": "^2.0.0-beta6"
+  }
+}

@@ -1,0 +1,26 @@
+span.sentence(
+  ng-bind="sentence.content"
+)
+md-button.md-mini.md-icon-button(
+  ng-if="!opened"
+  ui-sref="base.open({ openStack: sentence.idPath })"
+  ui-sref-active="active"
+)
+  md-icon comment
+md-button.md-mini.md-icon-button.md-accent(
+  ng-if="opened"
+  ng-click="pop()"
+)
+  md-icon comment
+.comment-block(
+  ng-if="opened"
+  layout="column"
+  md-whiteframe="5"
+)
+  div(
+    ng-repeat="comment in sentence.comments"
+    comment="comment"
+    open-stack="openStack"
+    last="$last"
+  )
+  comment-input(object="sentence")
